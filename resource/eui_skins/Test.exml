@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Test" width="400" height="300" xmlns:e="http://ns.egret.com/eui">
+	<e:CheckBox label="CheckBox" y="150" x="143"/>
+	<e:Button label="Button" x="300" y="20"/>
+</e:Skin>

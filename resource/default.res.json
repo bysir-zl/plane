@@ -1,0 +1,1635 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,tanks_png,playerShip1_damage1_png,playerShip1_damage2_png,playerShip1_damage3_png,playerShip2_damage1_png,playerShip2_damage2_png,playerShip2_damage3_png,playerShip3_damage1_png,playerShip3_damage2_png,playerShip3_damage3_png,fire00_png,fire01_png,fire02_png,fire03_png,fire04_png,fire05_png,fire06_png,fire07_png,fire08_png,fire09_png,fire10_png,fire11_png,fire12_png,fire13_png,fire14_png,fire15_png,fire16_png,fire17_png,fire18_png,fire19_png,shield1_png,shield2_png,shield3_png,speed_png,star1_png,star2_png,star3_png,enemyBlack1_png,enemyBlack2_png,enemyBlack3_png,enemyBlack4_png,enemyBlack5_png,enemyBlue1_png,enemyBlue2_png,enemyBlue3_png,enemyBlue4_png,enemyBlue5_png,enemyGreen1_png,enemyGreen2_png,enemyGreen3_png,enemyGreen4_png,enemyGreen5_png,enemyRed1_png,enemyRed2_png,enemyRed3_png,enemyRed4_png,enemyRed5_png,laserBlue01_png,laserBlue02_png,laserBlue03_png,laserBlue04_png,laserBlue05_png,laserBlue06_png,laserBlue07_png,laserBlue08_png,laserBlue09_png,laserBlue10_png,laserBlue11_png,laserBlue12_png,laserBlue13_png,laserBlue14_png,laserBlue15_png,laserBlue16_png,laserGreen01_png,laserGreen02_png,laserGreen03_png,laserGreen04_png,laserGreen05_png,laserGreen06_png,laserGreen07_png,laserGreen08_png,laserGreen09_png,laserGreen10_png,laserGreen11_png,laserGreen12_png,laserGreen13_png,laserGreen14_png,laserGreen15_png,laserGreen16_png,laserRed01_png,laserRed02_png,laserRed03_png,laserRed04_png,laserRed05_png,laserRed06_png,laserRed07_png,laserRed08_png,laserRed09_png,laserRed10_png,laserRed11_png,laserRed12_png,laserRed13_png,laserRed14_png,laserRed15_png,laserRed16_png,meteorBrown_big1_png,meteorBrown_big2_png,meteorBrown_big3_png,meteorBrown_big4_png,meteorBrown_med1_png,meteorBrown_med3_png,meteorBrown_small1_png,meteorBrown_small2_png,meteorBrown_tiny1_png,meteorBrown_tiny2_png,meteorGrey_big1_png,meteorGrey_big2_png,meteorGrey_big3_png,meteorGrey_big4_png,meteorGrey_med1_png,meteorGrey_med2_png,meteorGrey_small1_png,meteorGrey_small2_png,meteorGrey_tiny1_png,meteorGrey_tiny2_png,beam0_png,beam1_png,beam2_png,beam3_png,beam4_png,beam5_png,beam6_png,beamLong1_png,beamLong2_png,cockpitBlue_0_png,cockpitBlue_1_png,cockpitBlue_2_png,cockpitBlue_3_png,cockpitBlue_4_png,cockpitBlue_5_png,cockpitBlue_6_png,cockpitBlue_7_png,cockpitGreen_0_png,cockpitGreen_1_png,cockpitGreen_2_png,cockpitGreen_3_png,cockpitGreen_4_png,cockpitGreen_5_png,cockpitGreen_6_png,cockpitGreen_7_png,cockpitRed_0_png,cockpitRed_1_png,cockpitRed_2_png,cockpitRed_3_png,cockpitRed_4_png,cockpitRed_5_png,cockpitRed_6_png,cockpitRed_7_png,cockpitYellow_0_png,cockpitYellow_1_png,cockpitYellow_2_png,cockpitYellow_3_png,cockpitYellow_4_png,cockpitYellow_5_png,cockpitYellow_6_png,cockpitYellow_7_png,engine1_png,engine2_png,engine3_png,engine4_png,engine5_png,gun00_png,gun01_png,gun02_png,gun03_png,gun04_png,gun05_png,gun06_png,gun07_png,gun08_png,gun09_png,gun10_png,scratch1_png,scratch2_png,scratch3_png,turretBase_big_png,turretBase_small_png,wingBlue_0_png,wingBlue_1_png,wingBlue_2_png,wingBlue_3_png,wingBlue_4_png,wingBlue_5_png,wingBlue_6_png,wingBlue_7_png,wingGreen_0_png,wingGreen_1_png,wingGreen_2_png,wingGreen_3_png,wingGreen_4_png,wingGreen_5_png,wingGreen_6_png,wingGreen_7_png,wingRed_0_png,wingRed_1_png,wingRed_2_png,wingRed_3_png,wingRed_4_png,wingRed_5_png,wingRed_6_png,wingRed_7_png,wingYellow_0_png,wingYellow_1_png,wingYellow_2_png,wingYellow_3_png,wingYellow_4_png,wingYellow_5_png,wingYellow_6_png,wingYellow_7_png,playerShip1_blue_png,playerShip1_green_png,playerShip1_orange_png,playerShip1_red_png,playerShip2_blue_png,playerShip2_green_png,playerShip2_orange_png,playerShip2_red_png,playerShip3_blue_png,playerShip3_green_png,playerShip3_orange_png,playerShip3_red_png,bold_silver_png,bolt_bronze_png,bolt_gold_png,pill_blue_png,pill_green_png,pill_red_png,pill_yellow_png,powerupBlue_png,powerupBlue_bolt_png,powerupBlue_shield_png,powerupBlue_star_png,powerupGreen_png,powerupGreen_bolt_png,powerupGreen_shield_png,powerupGreen_star_png,powerupRed_png,powerupRed_bolt_png,powerupRed_shield_png,powerupRed_star_png,powerupYellow_png,powerupYellow_bolt_png,powerupYellow_shield_png,powerupYellow_star_png,shield_bronze_png,shield_gold_png,shield_silver_png,star_bronze_png,star_gold_png,star_silver_png,things_bronze_png,things_gold_png,things_silver_png,ufoBlue_png,ufoGreen_png,ufoRed_png,ufoYellow_png,buttonBlue_png,buttonGreen_png,buttonRed_png,buttonYellow_png,cursor_png,numeral0_png,numeral1_png,numeral2_png,numeral3_png,numeral4_png,numeral5_png,numeral6_png,numeral7_png,numeral8_png,numeral9_png,numeralX_png,playerLife1_blue_png,playerLife1_green_png,playerLife1_orange_png,playerLife1_red_png,playerLife2_blue_png,playerLife2_green_png,playerLife2_orange_png,playerLife2_red_png,playerLife3_blue_png,playerLife3_green_png,playerLife3_orange_png,playerLife3_red_png,black_png,blue_png,darkPurple_png,purple_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "tanks_png",
+			"type": "image",
+			"url": "assets/tanks.png"
+		},
+		{
+			"name": "playerShip1_damage1_png",
+			"type": "image",
+			"url": "assets/Fly/Damage/playerShip1_damage1.png"
+		},
+		{
+			"name": "playerShip1_damage2_png",
+			"type": "image",
+			"url": "assets/Fly/Damage/playerShip1_damage2.png"
+		},
+		{
+			"name": "playerShip1_damage3_png",
+			"type": "image",
+			"url": "assets/Fly/Damage/playerShip1_damage3.png"
+		},
+		{
+			"name": "playerShip2_damage1_png",
+			"type": "image",
+			"url": "assets/Fly/Damage/playerShip2_damage1.png"
+		},
+		{
+			"name": "playerShip2_damage2_png",
+			"type": "image",
+			"url": "assets/Fly/Damage/playerShip2_damage2.png"
+		},
+		{
+			"name": "playerShip2_damage3_png",
+			"type": "image",
+			"url": "assets/Fly/Damage/playerShip2_damage3.png"
+		},
+		{
+			"name": "playerShip3_damage1_png",
+			"type": "image",
+			"url": "assets/Fly/Damage/playerShip3_damage1.png"
+		},
+		{
+			"name": "playerShip3_damage2_png",
+			"type": "image",
+			"url": "assets/Fly/Damage/playerShip3_damage2.png"
+		},
+		{
+			"name": "playerShip3_damage3_png",
+			"type": "image",
+			"url": "assets/Fly/Damage/playerShip3_damage3.png"
+		},
+		{
+			"name": "fire00_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/fire00.png"
+		},
+		{
+			"name": "fire01_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/fire01.png"
+		},
+		{
+			"name": "fire02_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/fire02.png"
+		},
+		{
+			"name": "fire03_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/fire03.png"
+		},
+		{
+			"name": "fire04_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/fire04.png"
+		},
+		{
+			"name": "fire05_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/fire05.png"
+		},
+		{
+			"name": "fire06_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/fire06.png"
+		},
+		{
+			"name": "fire07_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/fire07.png"
+		},
+		{
+			"name": "fire08_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/fire08.png"
+		},
+		{
+			"name": "fire09_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/fire09.png"
+		},
+		{
+			"name": "fire10_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/fire10.png"
+		},
+		{
+			"name": "fire11_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/fire11.png"
+		},
+		{
+			"name": "fire12_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/fire12.png"
+		},
+		{
+			"name": "fire13_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/fire13.png"
+		},
+		{
+			"name": "fire14_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/fire14.png"
+		},
+		{
+			"name": "fire15_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/fire15.png"
+		},
+		{
+			"name": "fire16_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/fire16.png"
+		},
+		{
+			"name": "fire17_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/fire17.png"
+		},
+		{
+			"name": "fire18_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/fire18.png"
+		},
+		{
+			"name": "fire19_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/fire19.png"
+		},
+		{
+			"name": "shield1_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/shield1.png"
+		},
+		{
+			"name": "shield2_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/shield2.png"
+		},
+		{
+			"name": "shield3_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/shield3.png"
+		},
+		{
+			"name": "speed_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/speed.png"
+		},
+		{
+			"name": "star1_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/star1.png"
+		},
+		{
+			"name": "star2_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/star2.png"
+		},
+		{
+			"name": "star3_png",
+			"type": "image",
+			"url": "assets/Fly/Effects/star3.png"
+		},
+		{
+			"name": "enemyBlack1_png",
+			"type": "image",
+			"url": "assets/Fly/Enemies/enemyBlack1.png"
+		},
+		{
+			"name": "enemyBlack2_png",
+			"type": "image",
+			"url": "assets/Fly/Enemies/enemyBlack2.png"
+		},
+		{
+			"name": "enemyBlack3_png",
+			"type": "image",
+			"url": "assets/Fly/Enemies/enemyBlack3.png"
+		},
+		{
+			"name": "enemyBlack4_png",
+			"type": "image",
+			"url": "assets/Fly/Enemies/enemyBlack4.png"
+		},
+		{
+			"name": "enemyBlack5_png",
+			"type": "image",
+			"url": "assets/Fly/Enemies/enemyBlack5.png"
+		},
+		{
+			"name": "enemyBlue1_png",
+			"type": "image",
+			"url": "assets/Fly/Enemies/enemyBlue1.png"
+		},
+		{
+			"name": "enemyBlue2_png",
+			"type": "image",
+			"url": "assets/Fly/Enemies/enemyBlue2.png"
+		},
+		{
+			"name": "enemyBlue3_png",
+			"type": "image",
+			"url": "assets/Fly/Enemies/enemyBlue3.png"
+		},
+		{
+			"name": "enemyBlue4_png",
+			"type": "image",
+			"url": "assets/Fly/Enemies/enemyBlue4.png"
+		},
+		{
+			"name": "enemyBlue5_png",
+			"type": "image",
+			"url": "assets/Fly/Enemies/enemyBlue5.png"
+		},
+		{
+			"name": "enemyGreen1_png",
+			"type": "image",
+			"url": "assets/Fly/Enemies/enemyGreen1.png"
+		},
+		{
+			"name": "enemyGreen2_png",
+			"type": "image",
+			"url": "assets/Fly/Enemies/enemyGreen2.png"
+		},
+		{
+			"name": "enemyGreen3_png",
+			"type": "image",
+			"url": "assets/Fly/Enemies/enemyGreen3.png"
+		},
+		{
+			"name": "enemyGreen4_png",
+			"type": "image",
+			"url": "assets/Fly/Enemies/enemyGreen4.png"
+		},
+		{
+			"name": "enemyGreen5_png",
+			"type": "image",
+			"url": "assets/Fly/Enemies/enemyGreen5.png"
+		},
+		{
+			"name": "enemyRed1_png",
+			"type": "image",
+			"url": "assets/Fly/Enemies/enemyRed1.png"
+		},
+		{
+			"name": "enemyRed2_png",
+			"type": "image",
+			"url": "assets/Fly/Enemies/enemyRed2.png"
+		},
+		{
+			"name": "enemyRed3_png",
+			"type": "image",
+			"url": "assets/Fly/Enemies/enemyRed3.png"
+		},
+		{
+			"name": "enemyRed4_png",
+			"type": "image",
+			"url": "assets/Fly/Enemies/enemyRed4.png"
+		},
+		{
+			"name": "enemyRed5_png",
+			"type": "image",
+			"url": "assets/Fly/Enemies/enemyRed5.png"
+		},
+		{
+			"name": "laserBlue01_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserBlue01.png"
+		},
+		{
+			"name": "laserBlue02_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserBlue02.png"
+		},
+		{
+			"name": "laserBlue03_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserBlue03.png"
+		},
+		{
+			"name": "laserBlue04_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserBlue04.png"
+		},
+		{
+			"name": "laserBlue05_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserBlue05.png"
+		},
+		{
+			"name": "laserBlue06_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserBlue06.png"
+		},
+		{
+			"name": "laserBlue07_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserBlue07.png"
+		},
+		{
+			"name": "laserBlue08_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserBlue08.png"
+		},
+		{
+			"name": "laserBlue09_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserBlue09.png"
+		},
+		{
+			"name": "laserBlue10_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserBlue10.png"
+		},
+		{
+			"name": "laserBlue11_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserBlue11.png"
+		},
+		{
+			"name": "laserBlue12_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserBlue12.png"
+		},
+		{
+			"name": "laserBlue13_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserBlue13.png"
+		},
+		{
+			"name": "laserBlue14_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserBlue14.png"
+		},
+		{
+			"name": "laserBlue15_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserBlue15.png"
+		},
+		{
+			"name": "laserBlue16_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserBlue16.png"
+		},
+		{
+			"name": "laserGreen01_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserGreen01.png"
+		},
+		{
+			"name": "laserGreen02_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserGreen02.png"
+		},
+		{
+			"name": "laserGreen03_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserGreen03.png"
+		},
+		{
+			"name": "laserGreen04_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserGreen04.png"
+		},
+		{
+			"name": "laserGreen05_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserGreen05.png"
+		},
+		{
+			"name": "laserGreen06_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserGreen06.png"
+		},
+		{
+			"name": "laserGreen07_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserGreen07.png"
+		},
+		{
+			"name": "laserGreen08_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserGreen08.png"
+		},
+		{
+			"name": "laserGreen09_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserGreen09.png"
+		},
+		{
+			"name": "laserGreen10_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserGreen10.png"
+		},
+		{
+			"name": "laserGreen11_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserGreen11.png"
+		},
+		{
+			"name": "laserGreen12_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserGreen12.png"
+		},
+		{
+			"name": "laserGreen13_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserGreen13.png"
+		},
+		{
+			"name": "laserGreen14_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserGreen14.png"
+		},
+		{
+			"name": "laserGreen15_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserGreen15.png"
+		},
+		{
+			"name": "laserGreen16_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserGreen16.png"
+		},
+		{
+			"name": "laserRed01_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserRed01.png"
+		},
+		{
+			"name": "laserRed02_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserRed02.png"
+		},
+		{
+			"name": "laserRed03_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserRed03.png"
+		},
+		{
+			"name": "laserRed04_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserRed04.png"
+		},
+		{
+			"name": "laserRed05_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserRed05.png"
+		},
+		{
+			"name": "laserRed06_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserRed06.png"
+		},
+		{
+			"name": "laserRed07_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserRed07.png"
+		},
+		{
+			"name": "laserRed08_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserRed08.png"
+		},
+		{
+			"name": "laserRed09_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserRed09.png"
+		},
+		{
+			"name": "laserRed10_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserRed10.png"
+		},
+		{
+			"name": "laserRed11_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserRed11.png"
+		},
+		{
+			"name": "laserRed12_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserRed12.png"
+		},
+		{
+			"name": "laserRed13_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserRed13.png"
+		},
+		{
+			"name": "laserRed14_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserRed14.png"
+		},
+		{
+			"name": "laserRed15_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserRed15.png"
+		},
+		{
+			"name": "laserRed16_png",
+			"type": "image",
+			"url": "assets/Fly/Lasers/laserRed16.png"
+		},
+		{
+			"name": "meteorBrown_big1_png",
+			"type": "image",
+			"url": "assets/Fly/Meteors/meteorBrown_big1.png"
+		},
+		{
+			"name": "meteorBrown_big2_png",
+			"type": "image",
+			"url": "assets/Fly/Meteors/meteorBrown_big2.png"
+		},
+		{
+			"name": "meteorBrown_big3_png",
+			"type": "image",
+			"url": "assets/Fly/Meteors/meteorBrown_big3.png"
+		},
+		{
+			"name": "meteorBrown_big4_png",
+			"type": "image",
+			"url": "assets/Fly/Meteors/meteorBrown_big4.png"
+		},
+		{
+			"name": "meteorBrown_med1_png",
+			"type": "image",
+			"url": "assets/Fly/Meteors/meteorBrown_med1.png"
+		},
+		{
+			"name": "meteorBrown_med3_png",
+			"type": "image",
+			"url": "assets/Fly/Meteors/meteorBrown_med3.png"
+		},
+		{
+			"name": "meteorBrown_small1_png",
+			"type": "image",
+			"url": "assets/Fly/Meteors/meteorBrown_small1.png"
+		},
+		{
+			"name": "meteorBrown_small2_png",
+			"type": "image",
+			"url": "assets/Fly/Meteors/meteorBrown_small2.png"
+		},
+		{
+			"name": "meteorBrown_tiny1_png",
+			"type": "image",
+			"url": "assets/Fly/Meteors/meteorBrown_tiny1.png"
+		},
+		{
+			"name": "meteorBrown_tiny2_png",
+			"type": "image",
+			"url": "assets/Fly/Meteors/meteorBrown_tiny2.png"
+		},
+		{
+			"name": "meteorGrey_big1_png",
+			"type": "image",
+			"url": "assets/Fly/Meteors/meteorGrey_big1.png"
+		},
+		{
+			"name": "meteorGrey_big2_png",
+			"type": "image",
+			"url": "assets/Fly/Meteors/meteorGrey_big2.png"
+		},
+		{
+			"name": "meteorGrey_big3_png",
+			"type": "image",
+			"url": "assets/Fly/Meteors/meteorGrey_big3.png"
+		},
+		{
+			"name": "meteorGrey_big4_png",
+			"type": "image",
+			"url": "assets/Fly/Meteors/meteorGrey_big4.png"
+		},
+		{
+			"name": "meteorGrey_med1_png",
+			"type": "image",
+			"url": "assets/Fly/Meteors/meteorGrey_med1.png"
+		},
+		{
+			"name": "meteorGrey_med2_png",
+			"type": "image",
+			"url": "assets/Fly/Meteors/meteorGrey_med2.png"
+		},
+		{
+			"name": "meteorGrey_small1_png",
+			"type": "image",
+			"url": "assets/Fly/Meteors/meteorGrey_small1.png"
+		},
+		{
+			"name": "meteorGrey_small2_png",
+			"type": "image",
+			"url": "assets/Fly/Meteors/meteorGrey_small2.png"
+		},
+		{
+			"name": "meteorGrey_tiny1_png",
+			"type": "image",
+			"url": "assets/Fly/Meteors/meteorGrey_tiny1.png"
+		},
+		{
+			"name": "meteorGrey_tiny2_png",
+			"type": "image",
+			"url": "assets/Fly/Meteors/meteorGrey_tiny2.png"
+		},
+		{
+			"name": "beam0_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/beam0.png"
+		},
+		{
+			"name": "beam1_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/beam1.png"
+		},
+		{
+			"name": "beam2_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/beam2.png"
+		},
+		{
+			"name": "beam3_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/beam3.png"
+		},
+		{
+			"name": "beam4_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/beam4.png"
+		},
+		{
+			"name": "beam5_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/beam5.png"
+		},
+		{
+			"name": "beam6_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/beam6.png"
+		},
+		{
+			"name": "beamLong1_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/beamLong1.png"
+		},
+		{
+			"name": "beamLong2_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/beamLong2.png"
+		},
+		{
+			"name": "cockpitBlue_0_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitBlue_0.png"
+		},
+		{
+			"name": "cockpitBlue_1_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitBlue_1.png"
+		},
+		{
+			"name": "cockpitBlue_2_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitBlue_2.png"
+		},
+		{
+			"name": "cockpitBlue_3_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitBlue_3.png"
+		},
+		{
+			"name": "cockpitBlue_4_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitBlue_4.png"
+		},
+		{
+			"name": "cockpitBlue_5_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitBlue_5.png"
+		},
+		{
+			"name": "cockpitBlue_6_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitBlue_6.png"
+		},
+		{
+			"name": "cockpitBlue_7_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitBlue_7.png"
+		},
+		{
+			"name": "cockpitGreen_0_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitGreen_0.png"
+		},
+		{
+			"name": "cockpitGreen_1_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitGreen_1.png"
+		},
+		{
+			"name": "cockpitGreen_2_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitGreen_2.png"
+		},
+		{
+			"name": "cockpitGreen_3_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitGreen_3.png"
+		},
+		{
+			"name": "cockpitGreen_4_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitGreen_4.png"
+		},
+		{
+			"name": "cockpitGreen_5_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitGreen_5.png"
+		},
+		{
+			"name": "cockpitGreen_6_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitGreen_6.png"
+		},
+		{
+			"name": "cockpitGreen_7_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitGreen_7.png"
+		},
+		{
+			"name": "cockpitRed_0_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitRed_0.png"
+		},
+		{
+			"name": "cockpitRed_1_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitRed_1.png"
+		},
+		{
+			"name": "cockpitRed_2_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitRed_2.png"
+		},
+		{
+			"name": "cockpitRed_3_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitRed_3.png"
+		},
+		{
+			"name": "cockpitRed_4_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitRed_4.png"
+		},
+		{
+			"name": "cockpitRed_5_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitRed_5.png"
+		},
+		{
+			"name": "cockpitRed_6_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitRed_6.png"
+		},
+		{
+			"name": "cockpitRed_7_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitRed_7.png"
+		},
+		{
+			"name": "cockpitYellow_0_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitYellow_0.png"
+		},
+		{
+			"name": "cockpitYellow_1_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitYellow_1.png"
+		},
+		{
+			"name": "cockpitYellow_2_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitYellow_2.png"
+		},
+		{
+			"name": "cockpitYellow_3_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitYellow_3.png"
+		},
+		{
+			"name": "cockpitYellow_4_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitYellow_4.png"
+		},
+		{
+			"name": "cockpitYellow_5_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitYellow_5.png"
+		},
+		{
+			"name": "cockpitYellow_6_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitYellow_6.png"
+		},
+		{
+			"name": "cockpitYellow_7_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/cockpitYellow_7.png"
+		},
+		{
+			"name": "engine1_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/engine1.png"
+		},
+		{
+			"name": "engine2_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/engine2.png"
+		},
+		{
+			"name": "engine3_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/engine3.png"
+		},
+		{
+			"name": "engine4_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/engine4.png"
+		},
+		{
+			"name": "engine5_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/engine5.png"
+		},
+		{
+			"name": "gun00_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/gun00.png"
+		},
+		{
+			"name": "gun01_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/gun01.png"
+		},
+		{
+			"name": "gun02_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/gun02.png"
+		},
+		{
+			"name": "gun03_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/gun03.png"
+		},
+		{
+			"name": "gun04_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/gun04.png"
+		},
+		{
+			"name": "gun05_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/gun05.png"
+		},
+		{
+			"name": "gun06_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/gun06.png"
+		},
+		{
+			"name": "gun07_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/gun07.png"
+		},
+		{
+			"name": "gun08_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/gun08.png"
+		},
+		{
+			"name": "gun09_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/gun09.png"
+		},
+		{
+			"name": "gun10_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/gun10.png"
+		},
+		{
+			"name": "scratch1_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/scratch1.png"
+		},
+		{
+			"name": "scratch2_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/scratch2.png"
+		},
+		{
+			"name": "scratch3_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/scratch3.png"
+		},
+		{
+			"name": "turretBase_big_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/turretBase_big.png"
+		},
+		{
+			"name": "turretBase_small_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/turretBase_small.png"
+		},
+		{
+			"name": "wingBlue_0_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingBlue_0.png"
+		},
+		{
+			"name": "wingBlue_1_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingBlue_1.png"
+		},
+		{
+			"name": "wingBlue_2_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingBlue_2.png"
+		},
+		{
+			"name": "wingBlue_3_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingBlue_3.png"
+		},
+		{
+			"name": "wingBlue_4_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingBlue_4.png"
+		},
+		{
+			"name": "wingBlue_5_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingBlue_5.png"
+		},
+		{
+			"name": "wingBlue_6_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingBlue_6.png"
+		},
+		{
+			"name": "wingBlue_7_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingBlue_7.png"
+		},
+		{
+			"name": "wingGreen_0_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingGreen_0.png"
+		},
+		{
+			"name": "wingGreen_1_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingGreen_1.png"
+		},
+		{
+			"name": "wingGreen_2_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingGreen_2.png"
+		},
+		{
+			"name": "wingGreen_3_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingGreen_3.png"
+		},
+		{
+			"name": "wingGreen_4_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingGreen_4.png"
+		},
+		{
+			"name": "wingGreen_5_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingGreen_5.png"
+		},
+		{
+			"name": "wingGreen_6_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingGreen_6.png"
+		},
+		{
+			"name": "wingGreen_7_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingGreen_7.png"
+		},
+		{
+			"name": "wingRed_0_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingRed_0.png"
+		},
+		{
+			"name": "wingRed_1_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingRed_1.png"
+		},
+		{
+			"name": "wingRed_2_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingRed_2.png"
+		},
+		{
+			"name": "wingRed_3_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingRed_3.png"
+		},
+		{
+			"name": "wingRed_4_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingRed_4.png"
+		},
+		{
+			"name": "wingRed_5_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingRed_5.png"
+		},
+		{
+			"name": "wingRed_6_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingRed_6.png"
+		},
+		{
+			"name": "wingRed_7_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingRed_7.png"
+		},
+		{
+			"name": "wingYellow_0_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingYellow_0.png"
+		},
+		{
+			"name": "wingYellow_1_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingYellow_1.png"
+		},
+		{
+			"name": "wingYellow_2_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingYellow_2.png"
+		},
+		{
+			"name": "wingYellow_3_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingYellow_3.png"
+		},
+		{
+			"name": "wingYellow_4_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingYellow_4.png"
+		},
+		{
+			"name": "wingYellow_5_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingYellow_5.png"
+		},
+		{
+			"name": "wingYellow_6_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingYellow_6.png"
+		},
+		{
+			"name": "wingYellow_7_png",
+			"type": "image",
+			"url": "assets/Fly/Parts/wingYellow_7.png"
+		},
+		{
+			"name": "playerShip1_blue_png",
+			"type": "image",
+			"url": "assets/Fly/playerShip1_blue.png"
+		},
+		{
+			"name": "playerShip1_green_png",
+			"type": "image",
+			"url": "assets/Fly/playerShip1_green.png"
+		},
+		{
+			"name": "playerShip1_orange_png",
+			"type": "image",
+			"url": "assets/Fly/playerShip1_orange.png"
+		},
+		{
+			"name": "playerShip1_red_png",
+			"type": "image",
+			"url": "assets/Fly/playerShip1_red.png"
+		},
+		{
+			"name": "playerShip2_blue_png",
+			"type": "image",
+			"url": "assets/Fly/playerShip2_blue.png"
+		},
+		{
+			"name": "playerShip2_green_png",
+			"type": "image",
+			"url": "assets/Fly/playerShip2_green.png"
+		},
+		{
+			"name": "playerShip2_orange_png",
+			"type": "image",
+			"url": "assets/Fly/playerShip2_orange.png"
+		},
+		{
+			"name": "playerShip2_red_png",
+			"type": "image",
+			"url": "assets/Fly/playerShip2_red.png"
+		},
+		{
+			"name": "playerShip3_blue_png",
+			"type": "image",
+			"url": "assets/Fly/playerShip3_blue.png"
+		},
+		{
+			"name": "playerShip3_green_png",
+			"type": "image",
+			"url": "assets/Fly/playerShip3_green.png"
+		},
+		{
+			"name": "playerShip3_orange_png",
+			"type": "image",
+			"url": "assets/Fly/playerShip3_orange.png"
+		},
+		{
+			"name": "playerShip3_red_png",
+			"type": "image",
+			"url": "assets/Fly/playerShip3_red.png"
+		},
+		{
+			"name": "bold_silver_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/bold_silver.png"
+		},
+		{
+			"name": "bolt_bronze_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/bolt_bronze.png"
+		},
+		{
+			"name": "bolt_gold_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/bolt_gold.png"
+		},
+		{
+			"name": "pill_blue_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/pill_blue.png"
+		},
+		{
+			"name": "pill_green_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/pill_green.png"
+		},
+		{
+			"name": "pill_red_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/pill_red.png"
+		},
+		{
+			"name": "pill_yellow_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/pill_yellow.png"
+		},
+		{
+			"name": "powerupBlue_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/powerupBlue.png"
+		},
+		{
+			"name": "powerupBlue_bolt_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/powerupBlue_bolt.png"
+		},
+		{
+			"name": "powerupBlue_shield_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/powerupBlue_shield.png"
+		},
+		{
+			"name": "powerupBlue_star_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/powerupBlue_star.png"
+		},
+		{
+			"name": "powerupGreen_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/powerupGreen.png"
+		},
+		{
+			"name": "powerupGreen_bolt_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/powerupGreen_bolt.png"
+		},
+		{
+			"name": "powerupGreen_shield_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/powerupGreen_shield.png"
+		},
+		{
+			"name": "powerupGreen_star_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/powerupGreen_star.png"
+		},
+		{
+			"name": "powerupRed_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/powerupRed.png"
+		},
+		{
+			"name": "powerupRed_bolt_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/powerupRed_bolt.png"
+		},
+		{
+			"name": "powerupRed_shield_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/powerupRed_shield.png"
+		},
+		{
+			"name": "powerupRed_star_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/powerupRed_star.png"
+		},
+		{
+			"name": "powerupYellow_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/powerupYellow.png"
+		},
+		{
+			"name": "powerupYellow_bolt_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/powerupYellow_bolt.png"
+		},
+		{
+			"name": "powerupYellow_shield_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/powerupYellow_shield.png"
+		},
+		{
+			"name": "powerupYellow_star_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/powerupYellow_star.png"
+		},
+		{
+			"name": "shield_bronze_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/shield_bronze.png"
+		},
+		{
+			"name": "shield_gold_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/shield_gold.png"
+		},
+		{
+			"name": "shield_silver_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/shield_silver.png"
+		},
+		{
+			"name": "star_bronze_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/star_bronze.png"
+		},
+		{
+			"name": "star_gold_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/star_gold.png"
+		},
+		{
+			"name": "star_silver_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/star_silver.png"
+		},
+		{
+			"name": "things_bronze_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/things_bronze.png"
+		},
+		{
+			"name": "things_gold_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/things_gold.png"
+		},
+		{
+			"name": "things_silver_png",
+			"type": "image",
+			"url": "assets/Fly/Power-ups/things_silver.png"
+		},
+		{
+			"name": "ufoBlue_png",
+			"type": "image",
+			"url": "assets/Fly/ufoBlue.png"
+		},
+		{
+			"name": "ufoGreen_png",
+			"type": "image",
+			"url": "assets/Fly/ufoGreen.png"
+		},
+		{
+			"name": "ufoRed_png",
+			"type": "image",
+			"url": "assets/Fly/ufoRed.png"
+		},
+		{
+			"name": "ufoYellow_png",
+			"type": "image",
+			"url": "assets/Fly/ufoYellow.png"
+		},
+		{
+			"name": "buttonBlue_png",
+			"type": "image",
+			"url": "assets/Fly/UI/buttonBlue.png"
+		},
+		{
+			"name": "buttonGreen_png",
+			"type": "image",
+			"url": "assets/Fly/UI/buttonGreen.png"
+		},
+		{
+			"name": "buttonRed_png",
+			"type": "image",
+			"url": "assets/Fly/UI/buttonRed.png"
+		},
+		{
+			"name": "buttonYellow_png",
+			"type": "image",
+			"url": "assets/Fly/UI/buttonYellow.png"
+		},
+		{
+			"name": "cursor_png",
+			"type": "image",
+			"url": "assets/Fly/UI/cursor.png"
+		},
+		{
+			"name": "numeral0_png",
+			"type": "image",
+			"url": "assets/Fly/UI/numeral0.png"
+		},
+		{
+			"name": "numeral1_png",
+			"type": "image",
+			"url": "assets/Fly/UI/numeral1.png"
+		},
+		{
+			"name": "numeral2_png",
+			"type": "image",
+			"url": "assets/Fly/UI/numeral2.png"
+		},
+		{
+			"name": "numeral3_png",
+			"type": "image",
+			"url": "assets/Fly/UI/numeral3.png"
+		},
+		{
+			"name": "numeral4_png",
+			"type": "image",
+			"url": "assets/Fly/UI/numeral4.png"
+		},
+		{
+			"name": "numeral5_png",
+			"type": "image",
+			"url": "assets/Fly/UI/numeral5.png"
+		},
+		{
+			"name": "numeral6_png",
+			"type": "image",
+			"url": "assets/Fly/UI/numeral6.png"
+		},
+		{
+			"name": "numeral7_png",
+			"type": "image",
+			"url": "assets/Fly/UI/numeral7.png"
+		},
+		{
+			"name": "numeral8_png",
+			"type": "image",
+			"url": "assets/Fly/UI/numeral8.png"
+		},
+		{
+			"name": "numeral9_png",
+			"type": "image",
+			"url": "assets/Fly/UI/numeral9.png"
+		},
+		{
+			"name": "numeralX_png",
+			"type": "image",
+			"url": "assets/Fly/UI/numeralX.png"
+		},
+		{
+			"name": "playerLife1_blue_png",
+			"type": "image",
+			"url": "assets/Fly/UI/playerLife1_blue.png"
+		},
+		{
+			"name": "playerLife1_green_png",
+			"type": "image",
+			"url": "assets/Fly/UI/playerLife1_green.png"
+		},
+		{
+			"name": "playerLife1_orange_png",
+			"type": "image",
+			"url": "assets/Fly/UI/playerLife1_orange.png"
+		},
+		{
+			"name": "playerLife1_red_png",
+			"type": "image",
+			"url": "assets/Fly/UI/playerLife1_red.png"
+		},
+		{
+			"name": "playerLife2_blue_png",
+			"type": "image",
+			"url": "assets/Fly/UI/playerLife2_blue.png"
+		},
+		{
+			"name": "playerLife2_green_png",
+			"type": "image",
+			"url": "assets/Fly/UI/playerLife2_green.png"
+		},
+		{
+			"name": "playerLife2_orange_png",
+			"type": "image",
+			"url": "assets/Fly/UI/playerLife2_orange.png"
+		},
+		{
+			"name": "playerLife2_red_png",
+			"type": "image",
+			"url": "assets/Fly/UI/playerLife2_red.png"
+		},
+		{
+			"name": "playerLife3_blue_png",
+			"type": "image",
+			"url": "assets/Fly/UI/playerLife3_blue.png"
+		},
+		{
+			"name": "playerLife3_green_png",
+			"type": "image",
+			"url": "assets/Fly/UI/playerLife3_green.png"
+		},
+		{
+			"name": "playerLife3_orange_png",
+			"type": "image",
+			"url": "assets/Fly/UI/playerLife3_orange.png"
+		},
+		{
+			"name": "playerLife3_red_png",
+			"type": "image",
+			"url": "assets/Fly/UI/playerLife3_red.png"
+		},
+		{
+			"name": "black_png",
+			"type": "image",
+			"url": "assets/Fly/Backgrounds/black.png"
+		},
+		{
+			"name": "blue_png",
+			"type": "image",
+			"url": "assets/Fly/Backgrounds/blue.png"
+		},
+		{
+			"name": "darkPurple_png",
+			"type": "image",
+			"url": "assets/Fly/Backgrounds/darkPurple.png"
+		},
+		{
+			"name": "purple_png",
+			"type": "image",
+			"url": "assets/Fly/Backgrounds/purple.png"
+		}
+	]
+}
