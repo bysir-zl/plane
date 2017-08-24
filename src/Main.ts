@@ -204,11 +204,11 @@ class Main extends eui.UILayer {
                                 pos = JSON.parse(pos.body)
                                 if (p != null) {
                                     switch (pos.cmd){
-                                        case 0:
+                                        case 0: // move
                                             egret.Tween.get(p)
                                                 .to({x: pos.x, y: pos.y}, 100)
                                             break
-                                        case 1:
+                                        case 1: // 发子弹
                                             let laser = new Laser3(pos.x, pos.y)
                                             this.addChild(laser)
                                             break
@@ -244,17 +244,5 @@ class Main extends eui.UILayer {
             time = now
             return false
         }, this);
-    }
-
-    /**
-     * 点击按钮
-     * Click the button
-     */
-    private onButtonClick(e: egret.TouchEvent) {
-        let panel = new eui.Panel();
-        panel.title = "Title";
-        panel.horizontalCenter = 0;
-        panel.verticalCenter = 0;
-        this.addChild(panel);
     }
 }
