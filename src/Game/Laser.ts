@@ -1,18 +1,16 @@
-class Laser3 extends egret.Bitmap {
+class Laser3 extends GameItem {
     public constructor(x: number, y: number) {
-        super()
-        this.touchEnabled = true
-        this.texture = RES.getRes("laserBlue03_png")
-
-        this.anchorOffsetX = this.width / 2
-        this.anchorOffsetY = this.height
-        this.x = x 
-        this.y = y
-        egret.Tween.get(this)
-            .to({x: x, y: y - 2000}, 1000)
-            .call(() => {
-                this.parent.removeChild(this)
-            })
+        super("laserBlue03_png", x, y)
     }
 
+    protected update(time: number) {
+        if (this.parent===null){
+            return
+        }
+        super.update(90,1800,time)
+        
+        if (this.y < -this.height) {
+            this.parent.removeChild(this)
+        }
+    }
 }

@@ -28,15 +28,15 @@
 //////////////////////////////////////////////////////////////////////////////////////
 
 import Bitmap = egret.Bitmap;
-import ByteArray = egret.ByteArray;
+
 class Main extends eui.UILayer {
     /**
      * 加载进度界面
      * loading process interface
      */
     private loadingView: LoadingUI;
-    private sock:egret.WebSocket
-    
+    private sock: egret.WebSocket
+
     protected createChildren(): void {
         super.createChildren();
 
@@ -113,7 +113,7 @@ class Main extends eui.UILayer {
     }
 
     public SendLaser(t: number, x: number, y: number) {
-        let s = JSON.stringify({cmd: 110, body: JSON.stringify({cmd:1,x: x, y:y})})
+        let s = JSON.stringify({cmd: 110, body: JSON.stringify({cmd: 1, x: x, y: y})})
         this.sock.writeUTF(s)
     }
 
@@ -162,26 +162,39 @@ class Main extends eui.UILayer {
         bg.fillMode = egret.BitmapFillMode.REPEAT;
         this.addChild(bg)
 
-        this.addEventListener(egret.TouchEvent.TOUCH_BEGIN, (e) => {
-            let s = JSON.stringify({cmd: 110, body: JSON.stringify({cmd:0,x: e.stageX, y: e.stageY})})
+        let hand = new Hand(10, this.height - 10)
+        this.addChild(hand)
+
+        hand.addEventListener("hand", (e) => {
+            let data = e.data
+            let s = JSON.stringify({cmd: 110, body: JSON.stringify({cmd: 0, angle: data.angle, speed: data.speed})})
             sock.writeUTF(s)
         }, this)
+
+        // socket
         let sock: egret.WebSocket = new egret.WebSocket();
         this.sock = sock
 
-        this.addEventListener(egret.TouchEvent.TOUCH_MOVE, (e) => {
-            // 广播
-            let s = JSON.stringify({cmd: 110, body: JSON.stringify({cmd:0,x: e.stageX, y: e.stageY})})
-            sock.writeUTF(s)
-        }, this)
+        // this.addEventListener(egret.TouchEvent.TOUCH_BEGIN, (e) => {
+        //     let s = JSON.stringify({cmd: 110, body: JSON.stringify({cmd: 0, x: e.stageX, y: e.stageY})})
+        //     sock.writeUTF(s)
+        // }, this)
+        // this.addEventListener(egret.TouchEvent.TOUCH_MOVE, (e) => {
+        //     // 广播
+        //     let s = JSON.stringify({cmd: 110, body: JSON.stringify({cmd: 0, x: e.stageX, y: e.stageY})})
+        //     sock.writeUTF(s)
+        // }, this)
+
 
         let players = {}
+        let lasers = []
         // ws
         sock.addEventListener(egret.ProgressEvent.SOCKET_DATA, (e) => {
             let msg = sock.readUTF();
             let data = JSON.parse(msg)
+            let moveMsg = null
             switch (data.cmd) {
-                case 1100:
+                case 1100: // 逻辑帧
                     let msgs = JSON.parse(data.body)
                     for (let i in msgs) {
                         let msg = JSON.parse(msgs[i])
@@ -190,9 +203,7 @@ class Main extends eui.UILayer {
                                 let ps = JSON.parse(msg.body)
                                 for (let i in ps) {
                                     let p = ps[i]
-                                    let player = new Player()
-                                    player.x = p.x
-                                    player.y = p.y
+                                    let player = new Player(p.x, p.y)
                                     this.addChild(player)
                                     players[i] = player
                                 }
@@ -203,13 +214,14 @@ class Main extends eui.UILayer {
                                 let pos = JSON.parse(pMove.body)
                                 pos = JSON.parse(pos.body)
                                 if (p != null) {
-                                    switch (pos.cmd){
+                                    switch (pos.cmd) {
                                         case 0: // move
-                                            egret.Tween.get(p)
-                                                .to({x: pos.x, y: pos.y}, 100)
+                                            moveMsg  = pos
+                                            moveMsg.player = p
                                             break
                                         case 1: // 发子弹
                                             let laser = new Laser3(pos.x, pos.y)
+                                            lasers.push(laser)
                                             this.addChild(laser)
                                             break
                                     }
@@ -218,6 +230,13 @@ class Main extends eui.UILayer {
 
                                 break
                         }
+                    }
+                                        
+                    if (moveMsg!==null){
+                        moveMsg.player.update(moveMsg.angle, moveMsg.speed, 20 / 1000.0)
+                    }
+                    for (let i in lasers) {
+                        lasers[i].update(20/1000.0)
                     }
                     break
             }

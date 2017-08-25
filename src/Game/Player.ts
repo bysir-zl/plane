@@ -1,14 +1,9 @@
-class Player extends egret.Bitmap {
+class Player extends GameItem {
     private offsetX: number
     private offsetY
 
-    public constructor() {
-        super()
-        this.touchEnabled = true
-        this.texture = RES.getRes("playerShip2_blue_png")
-
-        this.anchorOffsetX = this.width / 2
-        this.anchorOffsetY = this.height / 2
+    public constructor(x: number, y: number) {
+        super("playerShip2_blue_png", x, y)
 
         // this.addEventListener(egret.TouchEvent.TOUCH_BEGIN, (e) => {
         // 	let draggedObject = e.currentTarget;
@@ -18,8 +13,14 @@ class Player extends egret.Bitmap {
         // }, this)
         this.addEventListener(egret.TouchEvent.TOUCH_TAP, (e) => {
             let m = <Main>this.parent
-            m.SendLaser(0,this.x,this.y)
+            m.SendLaser(0, this.x, this.y)
         }, this)
+    }
+
+    protected update(angle: number, speed: number, time: number) {
+        speed *= 1000
+
+        super.update(angle, speed, time)
     }
 
 }
